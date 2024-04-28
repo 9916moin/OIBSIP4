@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+#container {
+    width: 350px; /* Increase container width */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff; /* Set container background color */
+    border: 2px solid #ccc; /* Add border */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    padding: 20px; /* Add padding */
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    color: #333; /* Set label color */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Make inputs fill container width */
+    padding: 8px; /* Add padding to inputs */
+    margin-top: 5px; /* Add margin to inputs */
+    border: 1px solid #ccc; /* Add border to inputs */
+    border-radius: 5px; /* Add border radius to inputs */
+}
+
+button[type="submit"] {
+    width: 100%; 
+    padding: 10px; /* Add padding to button */
+    margin-top: 10px; /* Add margin to button */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darken button background color on hover */
+}
+
+p {
+    text-align: center; /* Center align register link */
+}
+
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
